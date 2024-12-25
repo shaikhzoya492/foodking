@@ -54,16 +54,38 @@
                 padding-right: 10px;
             }
         }
+        .navbar-nav .nav-link {
+        font-size: 1.3rem;
+    }
     </style>
 </head>
 <body>
-    <nav style="margin-bottom: 20px;">
-        <div class="logo container1">
-            <h2>Foodking <a href="index.html" style="font-weight: 450;font-size: large; margin-left: 400px; text-decoration: none; color: gray;" onmouseover="this.style.color='#D12525'" 
-                onmouseout="this.style.color='gray'"> Home</a> <a href="#"  style="font-weight: 450;font-size: large; margin-left: 80px; text-decoration: none; color: gray;" onmouseover="this.style.color='#D12525'" 
-                onmouseout="this.style.color='gray'">About</a><a href="#"  style="font-weight: 450;font-size: large; margin-left: 80px; text-decoration: none; color: gray;" onmouseover="this.style.color='#D12525'" 
-                onmouseout="this.style.color='gray'">Service</a><a href="#"  style="font-weight: 450;font-size: large; margin-left: 80px; text-decoration: none; color: gray;" onmouseover="this.style.color='#D12525'" 
-                onmouseout="this.style.color='gray'">Contact</a></h2>
+    <nav class="navbar navbar-expand-lg navbar-light" style="margin-bottom: 20px;">
+        <div class="container-fluid">
+            <div class="container1 logo">
+            <!-- Brand Name -->
+            <h2 >Foodking</h2></div>
+            <!-- Toggler for Mobile View -->
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color: gray;" onmouseover="this.style.color='#D12525'" onmouseout="this.style.color='gray'">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: gray;" onmouseover="this.style.color='#D12525'" onmouseout="this.style.color='gray'">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: gray;" onmouseover="this.style.color='#D12525'" onmouseout="this.style.color='gray'">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: gray;" onmouseover="this.style.color='#D12525'" onmouseout="this.style.color='gray'">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <h1 style="margin-left: 80px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: 700; margin-top: 40px; margin-bottom: 20px;">Burgers</h1>
